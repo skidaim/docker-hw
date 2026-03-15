@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'leplusorg/compress:autobuild'
+          default: 'hectorm/qemu-reactos:latest'
 
 # env:
 #   REGISTRY: ghcr.io
